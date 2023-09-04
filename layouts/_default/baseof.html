@@ -40,11 +40,6 @@
             <a href="#" id="view-comments" class="fixed-button" title="{{ T `viewComments` }}">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-
-            {{ if .Params.clapId }}
-            {{- /* clap button */ -}}
-            {{- partial "clap.html" . -}}
-            {{ end }}
         </div>
 
         {{- /* Load JavaScript scripts and CSS */ -}}
